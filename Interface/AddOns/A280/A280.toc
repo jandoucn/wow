@@ -1,0 +1,12 @@
+﻿## Interface: 80100
+## Title: |cFF8000FF A280
+## Title-zhCN: |cFF8000FF 魔兽助手A280 |cffffff00之|cFF8000FF 插件包|r
+## Title-zhTW: |cFF8000FF 魔獸助手A280 |cffffff00之|cFF8000FF 插件包|r
+## Notes-zhCN: 魔兽助手v2018.11.28.1128，使用/st 命令打开配置界面。
+## Notes-zhTW: 魔獸助手v2018.11.28.1128，使用/st 命令打開配置界面。
+## Version: 2018.11.28.1128
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: sdm_version,sdm_listFilters,sdm_iconSize,sdm_mainContents,sdm_macros,wowam_config,wowam_config_icon,MagicCastDB
+Bindings.xml
+A280.xml

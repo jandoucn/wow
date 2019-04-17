@@ -1,0 +1,26 @@
+
+MerchantExDB = {
+	["option"] = {
+		["repair"] = 1,
+		["sell"] = 1,
+		["guild"] = 1,
+	},
+	["myexception"] = {
+		["熊猫酒仙-Lo"] = {
+		},
+		["影之哀伤-Discpriest"] = {
+		},
+		["影之哀伤-Feigndeath"] = {
+		},
+	},
+	["exception"] = {
+	},
+	["buy"] = {
+		["熊猫酒仙-Lo"] = {
+		},
+		["影之哀伤-Discpriest"] = {
+		},
+		["影之哀伤-Feigndeath"] = {
+		},
+	},
+}

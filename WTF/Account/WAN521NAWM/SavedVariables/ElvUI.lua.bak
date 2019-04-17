@@ -1,0 +1,116 @@
+
+ElvDB = {
+	["profileKeys"] = {
+		["浅浅初荷兰 - 国王之谷"] = "浅浅初荷兰 - 国王之谷",
+	},
+	["gold"] = {
+		["国王之谷"] = {
+			["浅浅初荷兰"] = 425193318,
+		},
+	},
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["class"] = {
+		["国王之谷"] = {
+			["浅浅初荷兰"] = "MONK",
+		},
+	},
+	["global"] = {
+		["nameplate"] = {
+			["filters"] = {
+				["Explosives"] = {
+				},
+				["Boss"] = {
+				},
+			},
+		},
+	},
+	["profiles"] = {
+		["浅浅初荷兰 - 国王之谷"] = {
+			["movers"] = {
+				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,432",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1196",
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
+				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,427",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+			},
+			["v11NamePlateReset"] = true,
+			["chat"] = {
+				["panelColorConverted"] = true,
+			},
+			["unitframe"] = {
+				["units"] = {
+					["pet"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettargettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["target"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focus"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["boss"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["player"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+				},
+			},
+		},
+	},
+}
+ElvPrivateDB = {
+	["profileKeys"] = {
+		["浅浅初荷兰 - 国王之谷"] = "浅浅初荷兰 - 国王之谷",
+	},
+	["profiles"] = {
+		["浅浅初荷兰 - 国王之谷"] = {
+			["sle"] = {
+				["characterGoldsSorting"] = {
+					["国王之谷"] = {
+					},
+				},
+				["pvpreadydialogreset"] = true,
+			},
+			["install_complete"] = "11.10",
+		},
+	},
+}

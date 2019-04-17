@@ -1,0 +1,19 @@
+------------------------------------------------------------------------
+r165 | mitch0 | 2015-07-10 14:39:29 +0000 (Fri, 10 Jul 2015) | 1 line
+Changed paths:
+   A /tags/v3.10.0 (from /trunk:164)
+
+Tagging as v3.10.0
+------------------------------------------------------------------------
+r164 | mitch0 | 2015-07-10 14:33:18 +0000 (Fri, 10 Jul 2015) | 1 line
+Changed paths:
+   M /trunk/LibRangeCheck-2.0/LibRangeCheck-2.0.lua
+
+added some new items (thanks to lleafll from wowinterface)
+------------------------------------------------------------------------
+r162 | mitch0 | 2015-07-06 13:11:22 +0000 (Mon, 06 Jul 2015) | 1 line
+Changed paths:
+   M /trunk/LibRangeCheck-2.0.toc
+
+toc bump for 6.2
+------------------------------------------------------------------------

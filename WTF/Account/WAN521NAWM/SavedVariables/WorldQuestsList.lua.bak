@@ -1,0 +1,19 @@
+
+VWQL = {
+	["Ignore"] = {
+	},
+	["Sort"] = 5,
+	["浅浅初荷兰-国王之谷"] = {
+		["VERSION"] = 87,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["VERSION"] = 87,
+	["Scale"] = 0.8,
+	["DisableIconsGeneralMap947"] = true,
+	["AzeriteFormat"] = 20,
+	["HideLegion"] = true,
+}

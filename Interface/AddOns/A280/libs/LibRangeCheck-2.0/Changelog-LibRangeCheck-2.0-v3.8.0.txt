@@ -1,0 +1,19 @@
+------------------------------------------------------------------------
+r135 | mitch0 | 2013-03-09 20:59:53 +0000 (Sat, 09 Mar 2013) | 1 line
+Changed paths:
+   A /tags/v3.8.0 (from /trunk:134)
+
+Tagging as v3.8.0
+------------------------------------------------------------------------
+r134 | mitch0 | 2013-03-09 20:48:49 +0000 (Sat, 09 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/LibRangeCheck-2.0/LibRangeCheck-2.0.lua
+
+fix the 'range is stuck at 45yd' bug caused by Symbiosis
+------------------------------------------------------------------------
+r131 | mitch0 | 2013-03-06 08:20:56 +0000 (Wed, 06 Mar 2013) | 1 line
+Changed paths:
+   M /trunk/LibRangeCheck-2.0.toc
+
+toc bump
+------------------------------------------------------------------------

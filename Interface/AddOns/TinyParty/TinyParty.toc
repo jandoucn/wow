@@ -1,0 +1,9 @@
+## Interface: 80100
+## Title: TinyParty
+## Notes: Party
+## Author: M
+## Version: 8.0.0
+
+Party.lua
+PartyTargetBliz.lua
+PartyTarget.lua

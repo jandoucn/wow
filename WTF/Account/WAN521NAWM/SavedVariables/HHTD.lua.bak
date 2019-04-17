@@ -1,0 +1,23 @@
+
+HHTD_SavedVariables = {
+	["char"] = {
+		["浅浅初荷兰 - 国王之谷"] = {
+			["settingsMigrated"] = false,
+		},
+	},
+	["namespaces"] = {
+		["Announcer"] = {
+		},
+		["CM"] = {
+		},
+		["NPH"] = {
+		},
+	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 0,
+	},
+	["profileKeys"] = {
+		["浅浅初荷兰 - 国王之谷"] = "浅浅初荷兰 - 国王之谷",
+	},
+}

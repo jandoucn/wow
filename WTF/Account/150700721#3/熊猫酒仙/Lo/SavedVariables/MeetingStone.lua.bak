@@ -1,0 +1,75 @@
+
+MEETINGSTONE_CHARACTER_DB = {
+	["profileKeys"] = {
+		["Lo - 熊猫酒仙"] = "Lo - 熊猫酒仙",
+	},
+	["profiles"] = {
+		["Lo - 熊猫酒仙"] = {
+			["lastSearchCode"] = "2-0-0-0",
+			["searchHistoryList"] = {
+				"2-0-0-0", -- [1]
+				"6-0-0-0", -- [2]
+			},
+			["version"] = "80100.04",
+			["advShine"] = "80100.04",
+			["recent"] = {
+				["9-0-19-0"] = {
+					{
+						["role"] = "DAMAGER",
+						["name"] = "主教的守护-末日行者",
+						["time"] = 1555459520,
+						["class"] = 3,
+						["leader"] = true,
+					}, -- [1]
+					{
+						["role"] = "DAMAGER",
+						["name"] = "极光幻天-主宰之剑",
+						["time"] = 1555459520,
+						["class"] = 2,
+					}, -- [2]
+					{
+						["role"] = "DAMAGER",
+						["name"] = "我是没啥用啊-安苏",
+						["time"] = 1555459520,
+						["class"] = 6,
+					}, -- [3]
+					{
+						["role"] = "DAMAGER",
+						["name"] = "杀气小情绪-夏维安",
+						["time"] = 1555459520,
+						["class"] = 6,
+					}, -- [4]
+					{
+						["role"] = "DAMAGER",
+						["name"] = "无闲田-月神殿",
+						["time"] = 1555459520,
+						["class"] = 4,
+					}, -- [5]
+					{
+						["role"] = "DAMAGER",
+						["name"] = "思洋丶-安苏",
+						["iLvl"] = 386,
+						["time"] = 1555459242,
+						["class"] = 2,
+						["bTag"] = "老前辈丶#5335",
+					}, -- [6]
+					{
+						["role"] = "DAMAGER",
+						["name"] = "Caraco-安苏",
+						["time"] = 1555459520,
+						["class"] = 12,
+					}, -- [7]
+				},
+				["2-137-502-0"] = {
+					{
+						["role"] = "DAMAGER",
+						["name"] = "劃痕-熊猫酒仙",
+						["time"] = 1555468225,
+						["class"] = 8,
+						["leader"] = true,
+					}, -- [1]
+				},
+			},
+		},
+	},
+}

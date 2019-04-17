@@ -1,0 +1,10 @@
+lightweight tag d5eb69634441e37c1f328edb52c0144aaaf56b1c 2.0.5
+Author:	Jokair9 <37122137+Tomsize@users.noreply.github.com>
+Date:	Wed Mar 13 08:44:22 2019 +0100
+
+commit d5eb69634441e37c1f328edb52c0144aaaf56b1c
+Author: Jokair9 <37122137+Tomsize@users.noreply.github.com>
+Date:   Wed Mar 13 08:44:22 2019 +0100
+
+    Fix for PaperDollButton
+

@@ -1,0 +1,133 @@
+﻿<Bindings>
+	<Binding name="A281_SHOW" description="" header="A281">
+		A281_Show();
+	</Binding>
+	
+	<Binding name="A281_STARTSTOP" >
+		A281_Start();
+	</Binding>
+	
+
+	<Binding name="A281_RUN" >
+		A281_Run();
+	</Binding>
+	
+	<Binding name="A281_AUTO" >
+		A281_Auto();
+	</Binding>
+	
+	<Binding name="A281_BURSTS"  runOnUp="true">
+		
+		
+		if ( keystate == "down" ) then
+			A281_Auto();
+		else
+			A281_Stop();
+		end
+		
+	</Binding>
+	
+	<Binding name="A281_STOPALL" >
+		A281_Stop();
+	</Binding>
+	
+	
+	
+	<Binding name="A281_CastProgram1" >
+		A281_Program_Show(1);
+	</Binding>
+	
+	<Binding name="A281_CastProgram2" >
+		A281_Program_Show(2);
+	</Binding>
+	
+	<Binding name="A281_CastProgram3" >
+		A281_Program_Show(3);
+	</Binding>
+	
+	<Binding name="A281_CastProgram4" >
+		A281_Program_Show(4);
+	</Binding>
+	
+	<Binding name="A281_CastProgram5" >
+		A281_Program_Show(5);
+	</Binding>
+	
+	<Binding name="A281_CastProgram6" >
+		A281_Program_Show(6);
+	</Binding>
+	
+	<Binding name="A281_CastProgram7" >
+		A281_Program_Show(7);
+	</Binding>
+	
+	<Binding name="A281_CastProgram8" >
+		A281_Program_Show(8);
+	</Binding>
+	
+	<Binding name="A281_CastProgram9" >
+		A281_Program_Show(9);
+	</Binding>
+	
+	<Binding name="A281_CastProgram10" >
+		A281_Program_Show(10);
+	</Binding>
+	
+	<Binding name="A281_CastProgram11" >
+		A281_Program_Show(11);
+	</Binding>
+	
+	<Binding name="A281_CastProgram12" >
+		A281_Program_Show(12);
+	</Binding>
+	
+	<Binding name="A281_RunProgram1" >
+		A281_run(1);
+	</Binding>
+	
+	<Binding name="A281_RunProgram2" >
+		A281_run(2);
+	</Binding>
+	
+	<Binding name="A281_RunProgram3" >
+		A281_run(3);
+	</Binding>
+	
+	<Binding name="A281_RunProgram4" >
+		A281_run(4);
+	</Binding>
+	
+	<Binding name="A281_RunProgram5" >
+		A281_run(5);
+	</Binding>
+	
+	<Binding name="A281_RunProgram6" >
+		A281_run(6);
+	</Binding>
+	
+	<Binding name="A281_RunProgram7" >
+		A281_run(7);
+	</Binding>
+	
+	<Binding name="A281_RunProgram8" >
+		A281_run(8);
+	</Binding>
+	
+	<Binding name="A281_RunProgram9" >
+		A281_run(9);
+	</Binding>
+	
+	<Binding name="A281_RunProgram10" >
+		A281_run(10);
+	</Binding>
+	
+	<Binding name="A281_RunProgram11" >
+		A281_run(11);
+	</Binding>
+	
+	<Binding name="A281_RunProgram12" >
+		A281_run(12);
+	</Binding>
+	
+	
+</Bindings>

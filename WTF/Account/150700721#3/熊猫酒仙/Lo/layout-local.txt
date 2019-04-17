@@ -1,0 +1,15 @@
+Version: 1
+Frame: SuperTreatmentFrame
+FrameLevel: 1
+Anchor: BOTTOMLEFT
+X: 0
+Y: 0
+W: 75
+H: 100
+Frame: SMT_GUI
+FrameLevel: 2
+Anchor: CENTER
+X: 0
+Y: 0
+W: 700
+H: 700

@@ -1,0 +1,137 @@
+<Ui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd" xmlns="http://www.blizzard.com/wow/ui/">
+
+<Script file="CustomButtons.lua"/>
+
+<Button name="amCustomButtonsButtonTemplate" frameStrata="LOW" inherits="SecureActionButtonTemplate, ActionButtonTemplate" toplevel="true" virtual="true" movable="true">
+		<Scripts>
+			<OnReceiveDrag>
+				<!--amCustomButtons_OnReceiveDrag(self);-->
+			</OnReceiveDrag>
+			<OnDragStart>
+				<!--amCustomButtons_OnDragStart(self, button);-->
+			</OnDragStart>
+			<OnEnter>
+				amCustomButtons_MouseOver(self);
+			</OnEnter>
+			<OnLeave>
+				amCustomButtons_MouseOut(self);
+			</OnLeave>
+			<OnUpdate>
+				<!--amCustomButtons_OnUpdate(self, elapsed);-->
+			</OnUpdate>
+			<OnEvent>
+				<!--amCustomButtons_OnButtonEvent(self, event, ...);-->
+			</OnEvent>
+		</Scripts>
+	</Button>
+	
+	
+<Frame name="SuperTreatmentFrame" parent="UIParent" movable="true" frameStrata="DIALOG" enableMouse="true" hidden="true">
+		<Size>
+			<AbsDimension x="75" y="100" />
+		</Size>
+		<Anchors>
+			<Anchor point="CENTER" relativePoint="CENTER">
+				<Offset x="0" y="-55" />
+			</Anchor>
+		</Anchors>
+		<Backdrop name="$parentBackdrop" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
+			<BackgroundInsets>
+				<AbsInset left="3" right="3" top="3" bottom="3" />
+			</BackgroundInsets>
+			<TileSize>
+				<AbsValue val="12" />
+			</TileSize>
+			<EdgeSize>
+				<AbsValue val="12" />
+			</EdgeSize>
+		</Backdrop>
+		<Frames>
+			
+			
+			
+		
+		</Frames>
+		
+		
+		
+		
+	<Scripts>
+				
+		<OnLoad>
+			amCustomButtons_OnLoad(self);
+		</OnLoad>
+			
+		<OnEvent>
+			if SuperTreatment_OnEvent then SuperTreatment_OnEvent(event);end;
+			amCustomButtons_OnEvent(self, event, ...);
+		</OnEvent>
+		
+		<OnUpdate>
+			if SuperTreatment_OnUpdate then SuperTreatment_OnUpdate(arg1);end;
+		</OnUpdate>
+		
+		<OnMouseDown>
+		if SuperTreatment_OnMouseDown then SuperTreatment_OnMouseDown();end;
+		</OnMouseDown>
+		
+		<OnMouseUp>
+		if SuperTreatment_OnMouseUp then SuperTreatment_OnMouseUp();end;
+		</OnMouseUp>
+		
+	</Scripts>
+</Frame>
+	
+	
+	
+	<!--Script file="Localization.lua" /-->	
+	
+
+	<!--Script file="Library\Frame.lua" /-->
+	<!--Script file="Library\FAIAP.lua" /-->
+	
+	
+	<!---Script file="Locales\zhTW\api_zhTW.lua" />
+	<Script file="Locales\zhTW\Localization_zhTW.lua" />
+	
+	<Script file="Locales\zhTW\UnitBuffListMenu_zhTW.lua" />
+	<Script file="Locales\zhTW\RightMenu_zhTW.lua" />
+	<Script file="Locales\zhTW\SetBuffMenu_zhTW.lua" />
+	<Script file="Locales\zhTW\CustomizeTarget_zhTW.lua" />
+	<Script file="Locales\zhTW\FunctionListMenu_zhTW.lua" />
+	<Script file="Locales\zhTW\SetApiParameterMenu_zhTW.lua" />
+	<Script file="Locales\zhTW\SetIsSpellMenu_zhTW.lua" />
+	<Script file="Locales\zhTW\RangeCheckAngleMenu_zhTW.lua" />
+	
+	<Script file="Locales\zhTW\SuperTreatment_zhTW.lua" />
+	<Script file="Locales\zhTW\runspell_zhTW.lua" /-->	
+	
+	<!--Script file="Library\DropDownMenu-1.0.lua" /-->
+	
+	<!--Script file="Locales\zhCN\api_zhCN.lua" /-->
+	<!--Script file="Locales\zhCN\Localization_zhCN.lua" /-->
+	
+	<!--Script file="Locales\zhCN\UnitBuffListMenu_zhCN.lua" /-->
+	<!--Script file="Locales\zhCN\RightMenu_zhCN.lua" /-->
+	<!--Script file="Locales\zhCN\SetBuffMenu_zhCN.lua" /-->
+	<!--Script file="Locales\zhCN\CustomizeTarget_zhCN.lua" /-->
+	<!--Script file="Locales\zhCN\FunctionListMenu_zhCN.lua" /-->
+	<!--Script file="Locales\zhCN\SetApiParameterMenu_zhCN.lua" /-->
+	<!--Script file="Locales\zhCN\SetIsSpellMenu_zhCN.lua" /-->
+	<!--Script file="Locales\zhCN\RangeCheckAngleMenu_zhCN.lua" /-->
+
+
+	<!--Script file="Locales\zhCN\SuperTreatment_zhCN.lua" /-->
+	<!--Script file="Locales\zhCN\runspell_zhCN.lua" /-->	
+	
+	<!---Script file="import.lua" /-->
+	
+	<!--Script file="ScriptEdit\Locales\zhCN.lua" />
+	<Script file="ScriptEdit\Locales\zhTW.lua" />
+	<Script file="ScriptEdit\Main.lua" />
+	<Script file="ScriptEdit\Script.lua" /-->
+	
+	<!--Script file="import.lua" /-->
+	
+
+</Ui>		

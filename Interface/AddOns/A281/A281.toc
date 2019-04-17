@@ -1,0 +1,17 @@
+﻿## Interface: 80100
+## Title: |cFF8000FF A281 
+## Title-zhCN: |cFF8000FF 魔兽助手A280 |cffffff00之|cFF8000FF A281|r
+## Title-zhTW: |cFF8000FF 魔獸助手A280 |cffffff00之|cFF8000FF A281|r
+## Notes-zhCN: 魔兽助手v8.05，使用/st 命令打开配置界面。
+## Notes-zhTW: 魔獸助手v8.05，使用/st 命令打開配置界面。
+## Author: A281
+## Version: v8.05
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## RequiredDeps: A280
+## SavedVariables:CollectionInf
+## SavedVariablesPerCharacter: A281DBF,A281AllDBF
+
+Bindings.xml
+A281.xml
+

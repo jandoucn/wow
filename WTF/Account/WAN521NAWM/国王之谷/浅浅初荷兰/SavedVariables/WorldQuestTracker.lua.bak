@@ -1,0 +1,5 @@
+
+WQTrackerDBChr = {
+	["ActiveQuests"] = {
+	},
+}

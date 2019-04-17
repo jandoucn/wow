@@ -1,0 +1,38 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ 
+..\..\FrameXML\UI.xsd">
+	
+	 
+	
+	<Script file="libs\LibRangeCheck-2.0\LibStub-1.0\LibStub.lua" />
+	<Script file="libs\LibSpellRange-1.0\LibSpellRange-1.0.lua"/>
+	<Script file="libs\LibRangeCheck-2.0\CallbackHandler-1.0\CallbackHandler-1.0.lua" />
+	<Script file="libs\LibRangeCheck-2.0\LibRangeCheck-2.0\LibRangeCheck-2.0.lua" />
+	<Script file="libs\Serializer-3.0.lua"/>
+	<Script file="libs\MinimapIcon.lua" />
+	<Script file="libs\DropDownMenu-1.0.lua" />
+	<Script file="libs\MinimapButton-2.0.lua" />
+	<Script file="libs\LibDispellable-1.0.lua" />
+	
+		
+	
+	
+	<Script file="other\Localization.lua" />
+	
+	<Script file="other\Functions.lua" />
+	<Script file="other\SpellFunctions.lua" />
+	
+	<Script file="other\Class\DEATHKNIGHT.lua" />
+	<Script file="other\Class\DRUID.lua" />
+	<Script file="other\Class\HUNTER.lua" />
+	<Script file="other\Class\MAGE.lua" />
+	<Script file="other\Class\PALADIN.lua" />
+	<Script file="other\Class\PRIEST.lua" />
+	<Script file="other\Class\ROGUE.lua" />
+	<Script file="other\Class\SHAMAN.lua" />
+	<Script file="other\Class\WARLOCK.lua" />
+	<Script file="other\Class\WARRIOR.lua" />
+	<Script file="other\Class\main.lua" />
+	
+	
+
+</Ui>
